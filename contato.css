@@ -1,0 +1,73 @@
+
+.cabecalho {
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50PX;
+	padding: 10px;
+	align-items: center;
+	gap: 20px;
+	width: 1260px;
+	height: 368px;
+	background: var(#7fffd4);
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;	
+}
+.cabecalhoGeral-nav {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 20PX ;
+} 
+.logo {
+    display: flex;
+	align-items: center;
+	margin-left: 120px;
+	padding: 10px;
+}
+h3 {
+	padding: 0 10px;
+}
+.fale {
+	font-family: cursive;
+}
+.formulario {
+	width: 440px;
+	height: 310px;
+}
+form {
+	margin: 2px 0;
+}
+form label, form legend {
+	display: block;
+	font-size: 10px;
+	margin: 0 0 10px;
+}
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.checkbox {
+	margin: 20px 0;
+}
+.enviar {
+	width: 50%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.enviar:hover {
+	background: red;
+	transform: scale(1.2);
+}

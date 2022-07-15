@@ -1,0 +1,86 @@
+:root{
+    
+    --cor-fundo-elite: #7fffd4;
+    --cor-alt-fundo: #deb887;
+    --cor-de-tema: #00ffff;
+    --cor-fundo-mar: rgb(173,255,47);
+    --cor-fundo-azul:#eaf2fd;
+    --color-titulo:#464646;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --color-caixas:#fbfbfb;
+    --azul-botoes:#2a7ae4;
+}
+body {
+    width: 1260px;
+    background-color: var(--cor-fundo-azul);
+    
+}
+
+.banner {
+    width: 1260px;
+    height: 352px;
+}
+
+.alura {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding: 10px 10px;
+gap: 5px;
+width: 1136px;
+height: 115px;    
+
+}
+
+h1 {
+    margin: 0 250 0 5px;
+}
+
+.imagem{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+
+.login {
+    margin-left: 60px;
+}
+form {
+    
+    border: 1px solid #eaf2fd;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+form input, form button {
+    
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: 1px solid #000;
+    padding: 0.2em;
+}
+
+form button {
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    background: none;
+    color: #eaf2fd;
+}
+
+form button:hover {
+    background-color: #eaf2fd;
+    color: #00ffff;
+}
+
+.fas {
+    width: 30px;
+    height: 30px;
+    background-color: #00ffff;
+    border: 1px solid #000;
+}
